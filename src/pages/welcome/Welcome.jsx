@@ -13,7 +13,8 @@ import Swal from "sweetalert2";
 
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
-const contractAddress = "0xfFc4C9ec98E83c89D3A2326e95Aa735adEc6E1dD";
+// const contractAddress = "0xfFc4C9ec98E83c89D3A2326e95Aa735adEc6E1dD";
+const contractAddress = "0xDbA27008B23b45cd489828c4e03CBa45802AD151";
 const abi = contract.abi;
 
 const ContainerAnimation = keyframes`
