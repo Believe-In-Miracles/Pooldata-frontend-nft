@@ -336,15 +336,17 @@ export default function Welcome() {
                 <HeaderV3></HeaderV3>
             </HeaderContainer>
             <Container height={size.height}>
-                <div className={loading ? "block" : "hidden"}>
-                    <img
-                        src="assets/images/loading.gif"
-                        style={{
-                            width: "50px",
-                            marginTop: "80px",
-                            marginBottom: "-80px",
-                        }}
-                    ></img>
+                <div style={{height:'100px'}}>
+                    <div className={loading ? "block" : "hidden"}>
+                        <img
+                            src="assets/images/loading.gif"
+                            style={{
+                                width: "50px",
+                                marginTop: "80px",
+                                marginBottom: "-80px",
+                            }}
+                        ></img>
+                    </div>
                 </div>
                 <WelcomeBodyContainer>
                     <BodyContainer height={size.height}>

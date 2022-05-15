@@ -85,8 +85,8 @@
     line-height: 2rem;
 }
 .hidden{
-    visibility: hidden;
+    display: none;
 }
 .block{
-    visibility: visible;
+    display: block;
 }
